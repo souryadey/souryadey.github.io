@@ -1,12 +1,10 @@
-theme: 
+theme: jekyll-theme-leap-day
 title: Sourya Dey
 email: souryade@usc.edu
-description: Feel free to bookmark this page to get updates about me
+description: Site under construction, ignore all content for now!!
 baseurl: ""
 url: "https://souryadey.github.io"
 github_username:  souryadey
-
-theme: jekyll-theme-minimal
 
 exclude:
   - Gemfile
