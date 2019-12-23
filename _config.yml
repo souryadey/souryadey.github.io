@@ -3,7 +3,16 @@ markdown: kramdown
 
 name: Sourya Dey
 email: souryade@usc.edu
-description: Site under construction, ignore all content for now!!
+description: Sourya Dey's personal website
 url: "https://souryadey.github.io"
 github_username:  souryadey
 timezone: America/Los_Angeles
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Sourya Dey"
