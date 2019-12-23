@@ -1,5 +1,6 @@
 theme: jekyll-theme-leap-day
-title: Sourya Dey
+name: Sourya Dey
+markdown: kramdown
 email: souryade@usc.edu
 description: Site under construction, ignore all content for now!!
 baseurl: ""
