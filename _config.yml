@@ -1,19 +1,18 @@
 theme: jekyll-theme-leap-day
-name: Sourya Dey
 markdown: kramdown
+
+name: Sourya Dey
 email: souryade@usc.edu
 description: Site under construction, ignore all content for now!!
-baseurl: ""
 url: "https://souryadey.github.io"
 github_username:  souryadey
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
 timezone: America/Los_Angeles
+
+defaults:
+	-
+		scope:
+			path: ""
+			type: "posts"
+		values:
+			layout: "default"
+			author: "Sourya Dey"
