@@ -7,12 +7,3 @@ description: Site under construction, ignore all content for now!!
 url: "https://souryadey.github.io"
 github_username:  souryadey
 timezone: America/Los_Angeles
-
-defaults:
-  -
-    scope:
-	  path: ""
-	  type: "pages"
-	values:
-	  layout: "default"
-	  author: "Sourya Dey"
