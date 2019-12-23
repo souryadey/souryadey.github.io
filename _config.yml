@@ -9,10 +9,10 @@ github_username:  souryadey
 timezone: America/Los_Angeles
 
 defaults:
-	-
-		scope:
-			path: ""
-			type: "posts"
-		values:
-			layout: "default"
-			author: "Sourya Dey"
+  -
+    scope:
+	  path: ""
+	  type: "pages"
+	values:
+	  layout: "default"
+	  author: "Sourya Dey"
