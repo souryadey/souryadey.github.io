@@ -13,5 +13,11 @@ data-buttonclass="btn btn-primary"
 data-offset="-100"></div>
 -->
 <div class="w3-container">
-<div id="medium-widget"></div>
+    <h3>Research Blog: Medium</h3>
+    <div id="medium-widget"></div>
+    <hr style="width:50%; border:5px solid #8d883f" class="w3-round">
 </div>
+
+<script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+<script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+<script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@souryadey","postsPerLine":3,"limit":4,"picture":"big","fields":["description","claps","likes","publishAt"],"ratio":"original"}})</script>
