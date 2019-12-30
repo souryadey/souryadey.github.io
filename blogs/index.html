@@ -13,12 +13,18 @@ data-buttonclass="btn btn-primary"
 data-offset="-100"></div>
 -->
 <div class="w3-container">
-    <h3>Research Blog: Medium</h3>
-    <div id="medium-widget"></div>
+    <h3 style="margin-bottom:10px">Research Blog: Medium</h3>
+    <div class="w3-hide-small" id="medium-widget-big"></div>
+    <div class="w3-hide-medium w3-hide-large" id="medium-widget-small"></div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget-big', params: {"resource":"https://medium.com/@souryadey","postsPerLine":3,"limit":6,"picture":"big","fields":["description","claps","likes","publishAt"],"ratio":"original"}})</script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget-small', params: {"resource":"https://medium.com/@souryadey","postsPerLine":1,"limit":5,"picture":"small","fields":["description","claps","likes","publishAt"],"ratio":"original"}})</script>
+    <h5>Find my articles at the Medium publication <a class="inlink" href="https://towardsdatascience.com/@souryadey" target="_blank">Towards Data Science</a></h5>
+    <hr style="width:50%; border:5px solid #8d883f" class="w3-round">
+    
+    <h3>Personal Blog: Wordpress</h3>
+    <script src="//rss.bloople.net/?url=https%3A%2F%2Fcobaltfolly.wordpress.com%2Ffeed%2F&limit=5&showtitle=false&fixbugs=true&type=js"></script>
+    <h5>Read more articles at <a class="inlink" href="https://cobaltfolly.wordpress.com/" target="_blank"><i>cobaltfolly</i></a></h5>
     <hr style="width:50%; border:5px solid #8d883f" class="w3-round">
 </div>
 
-<script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
-<script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-<script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@souryadey","postsPerLine":3,"limit":4,"picture":"big","fields":["description","claps","likes","publishAt"],"ratio":"original"}})</script>
-<script src="//rss.bloople.net/?url=https%3A%2F%2Fcobaltfolly.wordpress.com%2Ffeed%2F&detail=30&type=js"></script>
