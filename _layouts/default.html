@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<title>{{ page.title }}</title>
+<html lang="en">
+	<head>
+		<title>{{ page.title }}</title>
 			
-			<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="description" content="Personal website of Sourya Dey – PhD candidate in deep learning at University of Southern California">
-			<meta name="author" content="Sourya Dey">
-			<meta name="keywords" content="Sourya, Sourya Dey, neural networks, machine learning, deep learning, complexity reduction">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Sourya Dey is an electrical and computer engineering PhD candidate researching in machine learning, neural networks and deep learning at University of Southern California">
+		<meta name="author" content="Sourya Dey">
+		<meta name="keywords" content="Sourya, Sourya Dey, neural networks, machine learning, deep learning, complexity reduction">
+
+		<!-- <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+		<link rel="shortcut icon" sizes="32x32" href="/favicon/favicon.ico">
+		<link rel="manifest" href="/favicon/site.webmanifest">
 			
-			<!-- <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
-			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			
-			<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-			<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-			<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-			<link rel="shortcut icon" sizes="32x32" href="/favicon/favicon.ico">
-			<link rel="manifest" href="/favicon/site.webmanifest">
-			
-			<style>
+		<style>
 			body,h1,h2,h3,h4,h5 {font-family: "Roboto", sans-serif}
 			body {font-size:16px;}
 			a.inlink {
@@ -53,51 +53,52 @@
 			  top: -1px;
 			  left: 5px;
 		  	}
-			</style>
-		</head>
+		</style>
+	</head>
 		
-		<body>
-			<!-- Sidebar/menu -->
-			<nav class="w3-sidebar w3-khaki w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:250px;font-weight:bold;" id="mySidebar"><br>
-			  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft w3-hover-white" style="width:100%;font-size:22px;">Close Menu</a>
-			  <div class="w3-container w3-padding-16"></div>
-			  <div class="w3-bar-block">
-			    <a href="/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
-			    <a href="/research" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research</a>
-				<a href="/teaching" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Teaching</a>
-				<a href="/blogs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Blogs</a>
-				<a href="https://www.youtube.com/watch?v=jYymU_VFWnM" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Video</a>
-			    <a href="https://www.overleaf.com/read/npsjxycvygtk" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Handbook</a>
-			  </div>
-			</nav>
+	<body>
+		<!-- Sidebar/menu -->
+		<nav class="w3-sidebar w3-khaki w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:250px;font-weight:bold;" id="mySidebar"><br>
+    		<a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft w3-hover-white" style="width:100%;font-size:22px;">Close Menu</a>
+    		<div class="w3-container w3-padding-16"></div>
+    		<div class="w3-bar-block">
+            		<a href="/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    		    <a href="/research" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research</a>
+    			<a href="/teaching" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Teaching</a>
+    			<a href="/blogs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Blogs</a>
+    			<a href="https://www.youtube.com/watch?v=jYymU_VFWnM" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Video</a>
+    		    <a href="https://www.overleaf.com/read/npsjxycvygtk" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Handbook</a>
+    		    <!-- MAYBE TODO: Add section for undergrad work - DDA and whirlpool -->
+    		</div>
+		</nav>
 
-			<!-- Top menu on small screens -->
-			<header class="w3-container w3-top w3-hide-large w3-khaki w3-large">
-			  <a href="javascript:void(0)" class="w3-button w3-khaki w3-margin-right" onclick="w3_open()">☰</a>
-			  <span>Sourya Dey</span>
-			</header>
+		<!-- Top menu on small screens -->
+		<header class="w3-container w3-top w3-hide-large w3-khaki w3-large">
+    		<a href="javascript:void(0)" class="w3-button w3-khaki w3-margin-right" onclick="w3_open()">☰</a>
+    		<span>Sourya Dey</span>
+		</header>
 
-			<!-- Overlay effect when opening sidebar on small screens -->
-			<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+		<!-- Overlay effect when opening sidebar on small screens -->
+		<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 			
-			<!-- !PAGE CONTENT! -->
-			<div class="w3-main" style="margin-left:300px;margin-right:100px;margin-top:50px;">
+		<!-- PAGE CONTENT -->
+		<div class="w3-main" style="margin-left:300px;margin-right:100px;margin-top:50px;">
 			
 			{{ content }}
 			
-			</div>
+		</div>
 			
-			<script>
+		<script>
 			// Script to open and close sidebar
 			function w3_open() {
-			  document.getElementById("mySidebar").style.display = "block";
-			  document.getElementById("myOverlay").style.display = "block";
+    			document.getElementById("mySidebar").style.display = "block";
+    			document.getElementById("myOverlay").style.display = "block";
 			}
  
 			function w3_close() {
-			  document.getElementById("mySidebar").style.display = "none";
-			  document.getElementById("myOverlay").style.display = "none";
+    			document.getElementById("mySidebar").style.display = "none";
+    			document.getElementById("myOverlay").style.display = "none";
 			}
-			</script>
-		</body>
-	</html>
+		</script>
+	</body>
+</html>

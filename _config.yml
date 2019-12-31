@@ -1,11 +1,12 @@
 theme: jekyll-theme-minimal
 markdown: kramdown
 
+title: Sourya Dey
 name: Sourya Dey
 email: souryade@usc.edu
 description: Sourya Dey's personal website
 url: "https://souryadey.github.io"
-github_username:  souryadey
+github_username: souryadey
 timezone: America/Los_Angeles
 
 defaults:

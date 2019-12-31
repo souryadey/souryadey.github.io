@@ -1,17 +1,6 @@
 ---
 title: Sourya Dey | Blogs
 ---
-<!-- Retainable widget for Medium embed:
-
-<div id="retainable-rss-embed" 
-data-rss="https://medium.com/feed/@souryadey"
-data-maxcols="3" 
-data-layout="grid" 
-data-poststyle="inline" 
-data-readmore="Read the rest" 
-data-buttonclass="btn btn-primary" 
-data-offset="-100"></div>
--->
 <style>
 h3 {
     margin-bottom:25px;
@@ -20,19 +9,39 @@ h3 {
 
 <div class="w3-container">
     <h3>Research Blog: Medium</h3>
+    
+    <!-- 3 cols, Show images on top for large screens -->
     <div class="w3-hide-small" id="medium-widget-big"></div>
+    
+    <!-- 1 col, Show images beside for small screens -->
     <div class="w3-hide-medium w3-hide-large" id="medium-widget-small"></div>
+    
     <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
     <script>MediumWidget.Init({renderTo: '#medium-widget-big', params: {"resource":"https://medium.com/@souryadey","postsPerLine":3,"limit":6,"picture":"big","fields":["description","claps","likes","publishAt"],"ratio":"original"}})</script>
     <script>MediumWidget.Init({renderTo: '#medium-widget-small', params: {"resource":"https://medium.com/@souryadey","postsPerLine":1,"limit":5,"picture":"small","fields":["description","claps","likes","publishAt"],"ratio":"original"}})</script>
-    <!-- Retainable widget for Medium embed: <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script> -->
+    
+    <!-- Retainable widget for Medium embed:
+    <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+    <div id="retainable-rss-embed" 
+        data-rss="https://medium.com/feed/@souryadey"
+        data-maxcols="3" 
+        data-layout="grid" 
+        data-poststyle="inline" 
+        data-readmore="Read the rest" 
+        data-buttonclass="btn btn-primary" 
+        data-offset="-100">
+    </div>
+    -->
+    
     <a class="inlink" href="https://towardsdatascience.com/@souryadey" target="_blank"><h5>Find my articles at the Medium publication Towards Data Science</h5></a>
     <hr style="width:50%; border:5px solid #8d883f" class="w3-round">
-    
+
+        
     <h3>Personal Blog: Wordpress</h3>
     <script src="//rss.bloople.net/?url=https%3A%2F%2Fcobaltfolly.wordpress.com%2Ffeed%2F&limit=5&showtitle=false&fixbugs=true&type=js"></script>
     <a class="inlink" href="https://cobaltfolly.wordpress.com/" target="_blank"><h5>Read more articles at <i>cobaltfolly</i></h5></a>
     <hr style="width:50%; border:5px solid #8d883f" class="w3-round">
+
     
     <h3>Blogging for USC</h3>
     <!-- Moved this to homepage
@@ -48,4 +57,3 @@ h3 {
     <script src="//rss.bloople.net/?url=https%3A%2F%2Fviterbigradadmission.usc.edu%2Fauthor%2Fsourya%2Ffeed%2F&detail=25&limit=8&showtitle=false&fixbugs=true&type=js"></script>
     <a class="inlink" href="https://viterbigradadmission.usc.edu/author/sourya/" target="_blank"><h5>Read more articles at Viterbi Pulse &ndash; USC Graduate Student Blog</h5></a>
 </div>
-
